@@ -8,22 +8,6 @@ Option| Makefile Variable |Description|
 |./corewar -v 30 | OPT_V | Verbosity levels: 2  : Show cycles, 4  : Show operations, 8  : Show deaths, 16 : Show PC movements (Except for jumps)|
 |./corewar -dump {nbr_cycles} | OPT_DUMP | Dump the memory after nbr_cycles|
 
-## Source
-
-https://github.com/rizkyario/42-corewar/tree/unit-tests
-
-## Installation
-
-```
-git clone https://github.com/rizkyario/42-corewar.git && cd 42-corewar && git checkout unit-tests && make tests
-```
-
-or
-
-```
-curl --silent "https://api.github.com/repos/rizkyario/42-corewar/releases/latest" | grep '"tarball_url":' | sed -E 's/.*"([^"]+)".*/\1/' | xargs curl -L | tar zx
-```
-
 ## Instruction
 
 - Add asm binary path to ASM_PATH inside Makefile
