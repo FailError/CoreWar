@@ -74,4 +74,4 @@ libftfclean:
 git:
 	git add .
 	git commit -m "another_commit"
-	git push -u origin master
+	git push
