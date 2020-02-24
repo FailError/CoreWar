@@ -70,3 +70,8 @@ libftclean:
 libftfclean:
 	@echo [LIBFT]: Libft fclean
 	@make -C $(D_LIBFT) fclean
+
+git:
+	git add .
+	git commit -m "another_commit"
+	git push -u origin master
